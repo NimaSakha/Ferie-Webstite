@@ -1,0 +1,101 @@
+/* Variables------------------*/
+/* Main style------------------*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* base styles------------------*/
+p {
+  font-size: 18px;
+}
+
+a {
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* nav------------------*/
+nav {
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #172F7E;
+  color: white;
+  border-radius: 0 0 60px 0;
+}
+nav h1 {
+  padding: 20px;
+}
+
+/* div--------------------------*/
+.div {
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FCAD17;
+  border-radius: 50px;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.35);
+}
+.div h2 {
+  color: white;
+  text-decoration: underline;
+}
+.div p {
+  margin-top: 50px;
+}
+.div .small {
+  font-size: 17px;
+}
+.div .phone {
+  margin: 0;
+  width: auto;
+}
+.div svg {
+  float: left;
+}
+.div:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  color: white;
+  width: 100%;
+  height: 160px;
+  background-color: #172F7E;
+  border-radius: 0 100px 0 0;
+}
+footer .img {
+  width: 34px;
+}
+footer a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .div {
+    margin: 50px 55px 30px 55px;
+  }
+
+  footer {
+    margin: 125px 0 0 0;
+  }
+}/*# sourceMappingURL=style.css.map */
